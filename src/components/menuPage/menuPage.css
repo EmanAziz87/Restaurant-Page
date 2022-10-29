@@ -1,0 +1,10 @@
+.fried-chicken-image {
+    width: 100%;
+    height: 300px;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-out;
+}
+
+.fried-chicken-image:hover {
+    filter: grayscale(0%);
+}

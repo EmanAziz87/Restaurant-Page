@@ -1,0 +1,23 @@
+.nav-container {
+    height: 100px;
+    width: 80vw;
+    background-color: rgb(44, 43, 43);
+    display: flex;
+}
+
+.nav-button {
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(34, 34, 34);
+    background-color: rgb(175, 175, 175);
+    font-size: 2rem;
+    font-weight: 500;
+    transition: all .2s ease-out;
+}
+
+.nav-button:hover {
+    background-color: white;
+    color: black;
+}
