@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Milky-Honey';
+    src: url('./Milky-Honey.otf') format('otf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Milky-Honey';
+}
