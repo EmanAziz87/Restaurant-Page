@@ -1,6 +1,7 @@
 import './navBar.css';
 import { homePage } from '../homePage/homePage';
 import { menuPage } from '../menuPage/menuPage';
+import { contactPage } from '../contactPage/contactPage';
 
 
 const mainContainer = document.querySelector('#content');
@@ -48,6 +49,7 @@ function navBar() {
         while(contentContainer.firstChild) {
             contentContainer.removeChild(contentContainer.lastChild);
         }
+        contactPage();
 
     });
 }

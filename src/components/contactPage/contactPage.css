@@ -1,0 +1,14 @@
+.contact-container {
+    height: 90%;
+    width: 100%;
+    padding: 24px;
+    display: flex; 
+    align-items: center;
+    gap: 20%;
+    font-size: 2rem;
+}
+
+.contact-page-image {
+    height: 100%;
+    border: 3px solid rgb(15, 15, 15);
+}
