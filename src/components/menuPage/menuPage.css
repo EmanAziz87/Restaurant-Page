@@ -1,10 +1,25 @@
-.fried-chicken-image {
+.menu-item-container {
+    padding: 12px;
     width: 100%;
-    height: 300px;
-    filter: grayscale(100%);
-    transition: all 0.3s ease-out;
+    height: calc(100%/3);
+    display: flex;
+    font-size: 34px;
+    gap: 24px;
+    text-align: center;
 }
 
-.fried-chicken-image:hover {
+.menu-item-description {
+    margin: auto;
+}
+
+.menu-item-image {
+    min-width: 40%;
+    height: 100%;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-out;
+    border-radius: 12px;
+}
+
+.menu-item-image:hover {
     filter: grayscale(0%);
 }
